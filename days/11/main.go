@@ -10,9 +10,6 @@ import (
 	"strings"
 )
 
-var dirs = make(map[string]map[string]int)
-var currentDir []string
-
 type monkey struct {
 	index          int
 	items          []int
